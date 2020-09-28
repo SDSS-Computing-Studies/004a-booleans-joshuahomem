@@ -6,3 +6,16 @@
 # If they get the password correct (password is 12345password) 
 # then display the message "Access granted"
 # 1 marks
+
+a=input("username ")
+
+if "admin" in a:
+   b=input("password ") 
+    
+else:    
+    print("invalid user ")
+
+if "12345password" in b:
+    print("access granted")
+else:
+    print("access denied")
