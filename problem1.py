@@ -12,7 +12,7 @@
 # "the number is even"
 # "the number is odd"
 import math
-a=input("enter in a number ")
+a=input("enter in a number ").strip()
 a=int(a)
 b= a%2
 if b==1:
