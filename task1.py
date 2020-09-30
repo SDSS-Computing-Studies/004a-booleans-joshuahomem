@@ -12,7 +12,7 @@
 # "The number is smaller than 100"
 # "The number is 100"
 
-a=input("enter in your number")
+a=input("enter in your number").strip()
 b=100
 a=float(a)
 b=float(b)
