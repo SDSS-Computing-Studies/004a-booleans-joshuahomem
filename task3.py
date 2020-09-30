@@ -17,7 +17,7 @@
 # "2" : The number is 100 or a number up to 1000 
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
-a=input("enter in number")
+a=input("enter in number").strip()
 a=float(a)
 if a>1000:
     print(3)
