@@ -9,7 +9,7 @@
 # Outputs:
 # "the sentence contains password"
 # "the sentence does not contain password"
-a=input("put in your scentence")
+a=input("put in your scentence").strip()
 
 
 if "password" in a:
