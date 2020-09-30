@@ -19,3 +19,7 @@ b=float(b)
 
 if a>b:
     print("The number is larger than 100")
+elif a==b:
+    print("The number is 100")
+elif a<b:
+    print("The number is smaller than 100")
