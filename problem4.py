@@ -12,9 +12,9 @@
 # - "that is a right triangle"
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
-a=input("enter short side 1 ")
-b=input("enter short side 2 ")
-c=input("enter hypotenuse ")
+a=input("enter short side 1 ").strip()
+b=input("enter short side 2 ").strip()
+c=input("enter hypotenuse ").strip()
 a=float(a)
 b=float(b)
 c=float(c)
