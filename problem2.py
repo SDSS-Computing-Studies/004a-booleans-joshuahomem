@@ -11,7 +11,7 @@
 # "the number is an integer"
 # "the number is not an integer"
 
-a=input("enter in your number")
+a=input("enter in your number").strip()
 a=float(a)
 b=int(a)
 
