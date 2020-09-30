@@ -11,7 +11,7 @@
 # - "negative"
 # - "zero"
 
-a=input("enter in number")
+a=input("enter in number").strip()
 a=float(a)
 
 if a==0:
