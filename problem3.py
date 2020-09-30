@@ -7,7 +7,7 @@
 # then display the message "Access granted"
 # 1 marks
 
-a=input("username ")
+a=input("username ").strip()
 
 if "admin" in a:
    b=input("password ") 
