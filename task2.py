@@ -10,15 +10,10 @@
 # - "positive"
 # - "negative"
 # - "zero"
-
-a=input("enter in number").strip()
-a=float(a)
-
-if a==0:
-    print("Zero")
-
-if a>0:
-    print("posotive")
-
-if a<0:
+number=float(input("Input a number "))
+if number>0:
+    print("positive")
+if number==0:
+    print("zero")
+if number<0:
     print("negative")
