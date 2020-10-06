@@ -9,10 +9,9 @@
 # Outputs:
 # "the sentence contains password"
 # "the sentence does not contain password"
-a=input("put in your scentence").strip()
-
-
-if "password" in a:
-    print("the scentence contains password")
+sentence=input("Enter a sentence ")
+value="password" in sentence
+if value==True:
+    print("the sentence contains password")
 else:
-    print("the scentence does not contain password")
+    print("the sentence does not contain password")
